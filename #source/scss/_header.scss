@@ -1,0 +1,78 @@
+.header {
+    height: 670px;
+    width: 100%;
+
+   //?
+   //!
+    background: url("/img/photo.png") no-repeat;
+    block-size: cover;
+    background-position: 50%;
+
+    background-color: rgba(120, 104, 164, 0.659);
+}
+.main-container {
+    max-width: 960px;/*МАКСИМАЛЬНА ШИРИНА КОНТЕЙНЕРА*/
+    height: 100%;/*КОНТЕЙНЕР ЙДЕ НА ВСЮ ВИСОТУ НАСКРІЗЬ*/
+
+    margin: 0 auto;/*вирівнювання контейнера по горизонталі*/
+    text-align: center;/*внутрінність контейнера центрується*/
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    // background-color: rgba(178, 177, 152, 0.576);
+}
+
+.header__nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.main-logo {
+}
+.logo-svg {
+    width: 44px;
+    height: 50px;
+}
+.logo-text {
+    color:  rgb(16, 161, 164);
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 11px;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(21, 29, 51);
+}
+.header__navlink {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900px;
+    margin-right: 10px;
+    margin-left: 10px;                                         
+}
+.header__navlink_active {
+}
+.header__text {
+}
+.header__title {
+}
+.header__straight {
+}
+.header__descr {
+}
+.header__text-btn {
+}
+.header__gallery-btn {
+}

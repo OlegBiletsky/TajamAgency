@@ -1,0 +1,12 @@
+.main-container {
+    max-width: 960px;/*МАКСИМАЛЬНА ШИРИНА КОНТЕЙНЕРА*/
+    height: 100%;/*КОНТЕЙНЕР ЙДЕ НА ВСЮ ВИСОТУ НАСКРІЗЬ*/
+
+    margin: 0 auto;/*вирівнювання контейнера по горизонталі*/
+    // text-align: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: rgba(178, 177, 152, 0.576);
+}
