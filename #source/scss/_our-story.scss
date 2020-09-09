@@ -1,0 +1,54 @@
+.our-story {
+    min-height: 400px;
+
+
+}
+.main-container {}
+
+.story-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.story-logo {
+    margin-right: 100px;
+}
+.big-logo {
+    width: 235px;
+    height: 229px;
+}
+.story-text {
+    text-align: left;
+    max-width: 538px;
+}
+.story-title {
+    color: #413d4b;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    margin-bottom: 28px;
+}
+.story-descr {}
+.story-descr__p {
+    color: #413d4b;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.42px;
+    margin-bottom: 20px;
+}
+.story-btn {
+    color: rgb(13, 226, 210);
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+    text-transform: uppercase;
+    border: 1px solid #00e0d0;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
