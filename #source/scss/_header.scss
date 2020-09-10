@@ -1,6 +1,4 @@
 .header-wrapper {
-    // background-color: rgb(154, 55, 197);
-    background-image: linear-gradient(to right, rgb(12, 9, 15) 0%, rgb(81, 23, 121) 100%);
     max-width: 1800px;
     margin: 0 auto;
 }
@@ -9,20 +7,24 @@
     // width: 1600px;
     max-width: 1800px;
     margin: 0 auto;
-        //?
+    //?
     background: url("/img/header-img.png") no-repeat;
     block-size: cover;
     background-position: 50%;
-    opacity: 0.55;
     
 }
-
+.header-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .header__nav-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 35px;
+    padding-bottom: 30px;
     
 }
 .header__logo {
@@ -32,7 +34,6 @@
     
 }
 .main-logo {
-
 }
 .logo-svg {
     width: 44px;
@@ -49,26 +50,61 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(21, 29, 51);
+    
 }
 .header__navlink {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
-    font-weight: 900px;
+    font-weight: 900;
     margin-right: 10px;
-    margin-left: 10px;                                         
+    margin-left: 12px;
+    font-size: 13px;
+    text-transform: uppercase;
 }
 .header__navlink_active {
+      color: #00e0d0;
 }
 .header__text {
+
+    max-width: 770px;
+    // width: 100%;
+    height: 100%;
+    margin: auto;
 }
 .header__title {
+    color: #ffffff;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    letter-spacing: 0.32px;
+    margin-top: 130px;
+    margin-bottom: 25px;
 }
-.header__straight {
+.header__separator {
 }
 .header__descr {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+     
 }
 .header__text-btn {
+    color: #00e0d0;
+    font-family: "Hammersmith One";
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+    text-transform: uppercase;
+    border: 1px solid #00e0d0;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 127px;
+
 }
 .header__gallery-btn {
 }

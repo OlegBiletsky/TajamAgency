@@ -60,10 +60,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit; }
 
 .header-wrapper {
-  background-image: -webkit-gradient(linear, left top, right top, from(#0c090f), to(#511779));
-  background-image: -webkit-linear-gradient(left, #0c090f 0%, #511779 100%);
-  background-image: -o-linear-gradient(left, #0c090f 0%, #511779 100%);
-  background-image: linear-gradient(to right, #0c090f 0%, #511779 100%);
   max-width: 1800px;
   margin: 0 auto; }
 
@@ -73,8 +69,19 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   background: url("/img/header-img.png") no-repeat;
   block-size: cover;
-  background-position: 50%;
-  opacity: 0.55; }
+  background-position: 50%; }
+
+.header-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .header__nav-row {
   display: -webkit-box;
@@ -86,7 +93,8 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 15px; }
+  padding-top: 35px;
+  padding-bottom: 30px; }
 
 .header__logo {
   display: -webkit-box;
@@ -119,15 +127,55 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  background-color: #151d33; }
+          align-items: center; }
 
 .header__navlink {
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
-  font-weight: 900px;
+  font-weight: 900;
   margin-right: 10px;
-  margin-left: 10px; }
+  margin-left: 12px;
+  font-size: 13px;
+  text-transform: uppercase; }
+
+.header__navlink_active {
+  color: #00e0d0; }
+
+.header__text {
+  max-width: 770px;
+  height: 100%;
+  margin: auto; }
+
+.header__title {
+  color: #ffffff;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  letter-spacing: 0.32px;
+  margin-top: 130px;
+  margin-bottom: 25px; }
+
+.header__descr {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.7px;
+  margin-top: 20px;
+  margin-bottom: 40px; }
+
+.header__text-btn {
+  color: #00e0d0;
+  font-family: "Hammersmith One";
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 15px 10px 15px;
+  text-transform: uppercase;
+  border: 1px solid #00e0d0;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0);
+  margin-bottom: 127px; }
 
 .main-container {
   max-width: 960px;
