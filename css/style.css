@@ -403,7 +403,8 @@ h1, h2, h3, h4, h5, h6 {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-bottom: 60px; }
 
 .team-item {
   border: 1px solid white; }
@@ -431,4 +432,25 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   margin-top: 2px;
   margin-bottom: 20px; }
+
+.team-welcome {
+  color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 16px; }
+
+.team-button {
+  color: #00e0d0;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 10px 15px 10px 15px;
+  border: 1px solid #00e0d0;
+  border-radius: 4px;
+  background-color: rgba(69, 27, 111, 0); }
 /*# sourceMappingURL=style.css.map */
