@@ -1,0 +1,60 @@
+.expertise {
+}
+.main-container {}
+
+.expertise-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.expertise-titles {
+}
+.expertise-title {
+    color: rgb(65, 61, 75);
+    font-family: "Playfair Display", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+.expertise-subtitle {
+    opacity: 0.75;
+    color: rgb(47, 45, 53);
+    font-family: "Playfair Display", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.05px;
+}
+.expertise-underline {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(65, 61, 75);
+    opacity: 0.3;
+}
+.expertise-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.expertise-item {
+    max-width: 254px;
+}
+.expertise-item__logo {}
+
+.expertise-item__title {
+    color: rgb(65, 61, 75);
+    font-family: "Roboto - Black", sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+.expertise-item__descr {
+    opacity: 0.75;
+    color: rgb(51, 51, 51);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.7px;
+}
