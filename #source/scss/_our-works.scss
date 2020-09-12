@@ -1,0 +1,82 @@
+.our-works {
+    max-width: 1800px;
+    margin: auto;
+    min-height: 737px;
+
+    background-color: rgba(230, 219, 59, 0.795);
+}
+
+.main-container {}
+
+.works-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+.works-header__title {
+    color: rgb(65, 61, 75);
+    font-family: "Playfair Display";
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+.works-header__link {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.works-header__text {
+    color: rgb(65, 61, 75);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    margin-right: 10px;
+}
+.works-header__arrow {
+}
+
+.works-items {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.works-item {
+    // width: (1600/6)px;
+    width: 266px;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+}
+.works-footer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.works-footer__btn {
+    color: #00e0d0;
+    font-family: "Hammersmith One";
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+    text-transform: uppercase;
+    border: 1px solid #00e0d0;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0);
+
+}
