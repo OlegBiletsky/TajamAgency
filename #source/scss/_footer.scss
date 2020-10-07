@@ -1,31 +1,23 @@
 .footer {
-    max-width: 1800px;
+    max-width: 1600px;
     margin: auto;
 
-    
-    // min-height: 400px;
-
-    // background-color: rgb(147, 230, 114);
+    background-color: rgb(49, 22, 85);
 }
 .footer-wrapper {
     max-width: 1600px;
     margin: auto;
-
-    background: url("/img/_footer/footer-fon.png") no-repeat;
+    background: url("../img/footer/footer-fon.png") no-repeat;
     block-size: cover;
     background-position: 50%;
 }
 .main-container {}
-
 .footer-wrapper-inner {
-    // padding-bottom: 72px;
-    
     display: flex;
     flex-direction: column;
 }
 .footer-top {
     padding-top: 81px;
-    
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -39,12 +31,9 @@
     max-width: 283px;
     margin-right: 36px;
 }
-.header__logo {
-}
-.logo-svg {
-}
-.logo-text {
-}
+.header__logo {}
+.logo-svg {}
+.logo-text {}
 .footer-col1__desrc {
     color: #ffffff;
     font-family: "Roboto", sans-serif;
@@ -72,7 +61,6 @@
     line-height: 26px;
     text-transform: uppercase;
     letter-spacing: 0.75px;
-
     margin-bottom: 42px;
 }
 .footer-location {
@@ -80,7 +68,6 @@
     flex-direction: row;
     justify-content: start;
     align-items: start;
-
     margin-bottom: 15px;
 }
 .footer-location__logo {
@@ -92,7 +79,6 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 26px;
-    /* Text style for "Ruko cucru" */
     letter-spacing: 0.35px;
 }
 .footer-phone {
@@ -106,12 +92,11 @@
 }
 .footer-phone__number {
     color: #ffffff;
-font-family: "Roboto", sans-serif;
-font-size: 14px;
-font-weight: 300;
-line-height: 26px;
-/* Text style for "(+62) 21-2" */
-letter-spacing: 0.35px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.35px;
 }
 .footer-col3 {
     display: flex;
@@ -121,7 +106,6 @@ letter-spacing: 0.35px;
     justify-content: start;
     max-width: 291px;
     margin-top: 15px;
-    // margin-right: 62px;
 }
 .footer-col3__title {
     color: #ffffff;
@@ -130,13 +114,11 @@ letter-spacing: 0.35px;
     font-weight: 900;
     line-height: 26px;
     text-transform: uppercase;
-    /* Text style for "S, TAY IN" */
     letter-spacing: 0.75px;
 }
 .footer-subscriber {
     margin-top: 39px;
     margin-bottom: 21px;
-
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -148,7 +130,6 @@ letter-spacing: 0.35px;
     font-size: 14px;
     font-weight: 300;
     line-height: 26px;
-    /* Text style for "Subscribe" */
     letter-spacing: 0.7px;
     padding: 17px 26px 17px 16px;
     background-color: rgba(255, 255, 255, 0);
@@ -157,7 +138,6 @@ letter-spacing: 0.35px;
     margin-right: 10px;
 }
 .footer-subscriber__logo {
-
     border: 1px solid #ffffff;
     background-color: #ffffff;
     opacity: 0.5;
@@ -177,14 +157,11 @@ letter-spacing: 0.35px;
     padding: 10px 10px 10px 10px ;
 
 }
-
-
 .footer-bottom {
     margin-top: 71px;
     display: flex;
     justify-content: space-between;
 }
-
 .footer-bottom1 {
     display: flex;
     justify-content: space-between;
@@ -196,7 +173,6 @@ letter-spacing: 0.35px;
     font-weight: 400;
     line-height: 26px;
     text-transform: uppercase;
-    /* Text style for "H, ELP" */
     letter-spacing: 0.35px;
     margin-right: 30px;
 }
@@ -206,6 +182,5 @@ letter-spacing: 0.35px;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
-    /* Text style for "C, opyrigh" */
     letter-spacing: 0.35px;
 }

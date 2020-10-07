@@ -1,20 +1,16 @@
 .feedbacks {
-    max-width: 1800px;
+    max-width: 1600px;
     margin: auto;
-    // min-height: 500px;
-
-    // background-color: rgb(123, 230, 114);
 }
 .feedbacks-wrapper {
     max-width: 1600px;
     margin: auto;
-    background-color: rgb(197, 80, 168);
-    background: url("/img/_feedbacks/feedbackfon.png") no-repeat;
+    background-color: rgb(49, 22, 85);
+    background: url("../img/feedbacks/feedbackfon.png") no-repeat;
     block-size: cover;
     background-position: 50%;
 }
 .main-container {}
-
 .feedbacks-wrapper-inner {
     padding-top: 35px;
     padding-bottom: 34px;

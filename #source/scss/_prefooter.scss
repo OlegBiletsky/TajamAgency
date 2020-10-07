@@ -1,20 +1,14 @@
 .prefooter {
-    max-width: 1800px;
+    max-width: 1600px;
     margin: auto;
-    // min-height: 500px;
     padding-top: 36px;
     padding-bottom: 35px;
-
-    // background-color: rgb(114, 193, 230);
 }
-.prefooter-wrapper {
-}
+.prefooter-wrapper {}
 .main-container {}
-
 .prefooter-wrapper-inner {
     display: flex;
     flex-direction: row;
-    
 }
 .inputs-block {
     display: flex;
@@ -39,9 +33,7 @@
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.7px;
-
     border: 1px solid rgba(0, 0, 0, 0.1);
-
     padding-top: 18px;
     padding-bottom: 17px;
     padding-left: 21px;
@@ -55,9 +47,7 @@
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.7px;
-
     border: 1px solid rgba(0, 0, 0, 0.1);
-
     padding-top: 18px;
     padding-bottom: 17px;
     padding-left: 21px;
@@ -71,9 +61,7 @@
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.7px;
-
     border: 1px solid rgba(0, 0, 0, 0.1);
-
     padding-top: 18px;
     padding-bottom: 17px;
     padding-left: 21px;
@@ -87,9 +75,7 @@
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.7px;
-
     border: 1px solid rgba(0, 0, 0, 0.1);
-
     padding-top: 18px;
     padding-bottom: 17px;
     padding-left: 21px;
@@ -108,15 +94,12 @@
     border: 1px solid #00e0d0;
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0);
-
     margin-bottom: 35px;
-
 }
 .clients {
     display: flex;
     flex-direction: column;
     align-items: start;
-    // margin-right: 50px;
 }
 .clients__title {
     color: #413d4b;
@@ -130,23 +113,18 @@
 }
 .clients-logos {
     display: flex;
-    
 }
 .clients-logos__col1 {
     display: flex;
     flex-direction: column;
     align-items: start;
     margin-right: 80px;
-   
 }
-
 .clients-logos__col2 {
     display: flex;
     flex-direction: column;
     align-items: start;
-
 }
-
 .clients-logos__item {
     margin-bottom: 45px;
 }

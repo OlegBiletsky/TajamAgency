@@ -1,19 +1,13 @@
 .expertise {
-    max-width: 1800px;
+    max-width: 1600px;
     margin: auto;
     min-height: 755px;
-    // background-color: rgba(127, 190, 83, 0.659);
 }
 .main-container {}
-
-.expertise-wrapper {
-    
-}
-
+.expertise-wrapper {}
 .expertise-titles {
     padding-top: 30px;
     padding-bottom: 50px;
-
 }
 .expertise-title {
     color: rgb(65, 61, 75);
@@ -43,23 +37,18 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
     padding-bottom: 80px;
 }
 .expertise-item {
-    // max-height: 174px; 
     max-width: 254px;
     padding-top: 25px;
     padding-bottom: 20px;
-
 }
 .expertise-item__logo {
     height: 50px;
-
     margin-top: 5px;
     margin-bottom: 39px;
 }
-
 .expertise-item__title {
     color: rgb(65, 61, 75);
     font-family: "Roboto - Black", sans-serif;
