@@ -1,14 +1,14 @@
 .header-wrapper {
     max-width: 1600px;
     margin: 0 auto;
-    background-color: rgb(49, 22, 85);
+    background-color: #311655;
 }
 .header {
     height: 670px;
     max-width: 1800px;
     margin: 0 auto;
     //?
-    background: url("../img/header/header-img.png") no-repeat;
+    background: url("./img/header/header-img.png") no-repeat;
     block-size: cover;
     background-position: 50%;
 }

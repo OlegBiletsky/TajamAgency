@@ -1,7 +1,19 @@
 @charset "UTF-8";
+/********************* FONTS ************************/
+/* Hammersmith One, regular*/
+/*font-family: 'Hammersmith One', sans-serif;*/
+/*<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">*/
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+/*Playfair Display, bold , regular, black*/
+/*font-family: 'Playfair Display', serif;*/
+/*<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap");
+/*Roboto, light, regular, black, thin*/
+/*font-family: 'Roboto', sans-serif;*/
+/*<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap" rel="stylesheet">*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap");
+/**************************************************/
+/******************* RESET STYLE ******************/
 * {
   padding: 0;
   margin: 0;
@@ -59,6 +71,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit; }
 
+/**************************************************/
+/**************** others sections *****************/
 .header-wrapper {
   max-width: 1600px;
   margin: 0 auto;
@@ -68,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 670px;
   max-width: 1800px;
   margin: 0 auto;
-  background: url("../img/header/header-img.png") no-repeat;
+  background: url("./img/header/header-img.png") no-repeat;
   block-size: cover;
   background-position: 50%; }
 
@@ -249,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1600px;
   height: 550px;
   margin: 0 auto;
-  background: url("../img/story-video/video-story.png") no-repeat;
+  background: url("./img/story-video/video-story.png") no-repeat;
   block-size: cover;
   background-position: 50%;
   background-color: #311655; }
@@ -358,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #311655; }
 
 .team-wrapper {
-  background: url("../img/our-team/team-img-back.png") no-repeat;
+  background: url("./img/our-team/team-img-back.png") no-repeat;
   block-size: cover;
   background-position: 50%; }
 
@@ -555,7 +569,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1600px;
   margin: auto;
   background-color: #311655;
-  background: url("../img/feedbacks/feedbackfon.png") no-repeat;
+  background: url("./img/feedbacks/feedbackfon.png") no-repeat;
   block-size: cover;
   background-position: 50%; }
 
@@ -800,7 +814,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer-wrapper {
   max-width: 1600px;
   margin: auto;
-  background: url("../img/footer/footer-fon.png") no-repeat;
+  background: url("./img/footer/footer-fon.png") no-repeat;
   block-size: cover;
   background-position: 50%; }
 
@@ -1052,4 +1066,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0.35px; }
+
+/**************************************************/
 /*# sourceMappingURL=style.css.map */
