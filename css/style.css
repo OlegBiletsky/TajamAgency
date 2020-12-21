@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 670px;
   max-width: 1800px;
   margin: 0 auto;
-  background: url("./img/header/header-img.png") no-repeat;
+  background: url("../img/header/header-img.png") no-repeat;
   block-size: cover;
   background-position: 50%; }
 
@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1600px;
   height: 550px;
   margin: 0 auto;
-  background: url("./img/story-video/video-story.png") no-repeat;
+  background: url("../img/story-video/video-story.png") no-repeat;
   block-size: cover;
   background-position: 50%;
   background-color: #311655; }
@@ -372,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #311655; }
 
 .team-wrapper {
-  background: url("./img/our-team/team-img-back.png") no-repeat;
+  background: url("../img/our-team/team-img-back.png") no-repeat;
   block-size: cover;
   background-position: 50%; }
 
@@ -569,7 +569,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1600px;
   margin: auto;
   background-color: #311655;
-  background: url("./img/feedbacks/feedbackfon.png") no-repeat;
+  background: url("../img/feedbacks/feedbackfon.png") no-repeat;
   block-size: cover;
   background-position: 50%; }
 
@@ -814,7 +814,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer-wrapper {
   max-width: 1600px;
   margin: auto;
-  background: url("./img/footer/footer-fon.png") no-repeat;
+  background: url("../img/footer/footer-fon.png") no-repeat;
   block-size: cover;
   background-position: 50%; }
 
