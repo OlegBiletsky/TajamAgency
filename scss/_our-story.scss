@@ -5,21 +5,43 @@
 }
 .main-container {}
 .story-wrapper {
+    max-width: 1600px;
     display: flex;
     justify-content: center;
     padding-top: 70px;
     padding-bottom: 70px;
+    @media screen and (max-width: 950px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    @media screen and (max-width: 675px) {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
 }
 .story-logo {
     margin-right: 100px;
+    @media screen and (max-width: 810px) {
+        margin-right: 50px;
+    }
+    @media screen and (max-width: 675px) {
+        margin-right: 0;
+    }
 }
 .big-logo {
     width: 235px;
-    height: 229px;
+    @media screen and (max-width: 810px) {
+        width: 150px;
+    }
 }
 .story-text {
     text-align: left;
     max-width: 538px;
+    @media screen and (max-width: 675px) {
+        text-align: center;
+    }
 }
 .story-title {
     color: #413d4b;
@@ -29,6 +51,9 @@
     text-transform: uppercase;
     letter-spacing: 1.1px;
     margin-bottom: 28px;
+    @media screen and (max-width: 675px) {
+        margin-top: 30px;
+    }
 }
 .story-descr {}
 .story-descr__p {
@@ -44,10 +69,21 @@
     color: rgb(13, 226, 210);
     font-family: "Hammersmith One", sans-serif;
     font-size: 16px;
-    font-weight: 600;
-    padding: 10px 15px 10px 15px;
+    font-weight: 500;
+    padding: 13px 15px 10px 15px;
     text-transform: uppercase;
     border: 1px solid #00e0d0;
-    border-radius: 4px;
+    border-radius: 6px;
     background-color: rgb(255, 255, 255);
+    @media screen and (max-width: 675px) {
+        font-size: 20px;
+        padding: 18px 55px 14px 55px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+.story-btn:hover {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(66, 50, 117);
+    background-color: rgb(66, 50, 117);
 }

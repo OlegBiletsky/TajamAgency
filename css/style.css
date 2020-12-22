@@ -73,6 +73,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /**************************************************/
 /**************** others sections *****************/
+.main-container {
+  max-width: 960px;
+  /*МАКСИМАЛЬНА ШИРИНА КОНТЕЙНЕРА*/
+  height: 100%;
+  /*КОНТЕЙНЕР ЙДЕ НА ВСЮ ВИСОТУ НАСКРІЗЬ*/
+  margin: 0 auto;
+  /*вирівнювання контейнера по горизонталі*/
+  text-align: center;
+  /*внутрінність контейнера центрується*/
+  padding-left: 10px;
+  padding-right: 10px; }
+
 .header-wrapper {
   max-width: 1600px;
   margin: 0 auto;
@@ -192,24 +204,13 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(255, 255, 255, 0);
   margin-bottom: 127px; }
 
-.main-container {
-  max-width: 960px;
-  /*МАКСИМАЛЬНА ШИРИНА КОНТЕЙНЕРА*/
-  height: 100%;
-  /*КОНТЕЙНЕР ЙДЕ НА ВСЮ ВИСОТУ НАСКРІЗЬ*/
-  margin: 0 auto;
-  /*вирівнювання контейнера по горизонталі*/
-  text-align: center;
-  /*внутрінність контейнера центрується*/
-  padding-left: 10px;
-  padding-right: 10px; }
-
 .our-story {
   min-height: 400px;
   margin: auto;
   max-width: 1600px; }
 
 .story-wrapper {
+  max-width: 1600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -218,17 +219,43 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: center;
   padding-top: 70px;
   padding-bottom: 70px; }
+  @media screen and (max-width: 950px) {
+    .story-wrapper {
+      padding-left: 30px;
+      padding-right: 30px; } }
+  @media screen and (max-width: 675px) {
+    .story-wrapper {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding-top: 35px;
+      padding-bottom: 35px; } }
 
 .story-logo {
   margin-right: 100px; }
+  @media screen and (max-width: 810px) {
+    .story-logo {
+      margin-right: 50px; } }
+  @media screen and (max-width: 675px) {
+    .story-logo {
+      margin-right: 0; } }
 
 .big-logo {
-  width: 235px;
-  height: 229px; }
+  width: 235px; }
+  @media screen and (max-width: 810px) {
+    .big-logo {
+      width: 150px; } }
 
 .story-text {
   text-align: left;
   max-width: 538px; }
+  @media screen and (max-width: 675px) {
+    .story-text {
+      text-align: center; } }
 
 .story-title {
   color: #413d4b;
@@ -238,6 +265,9 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 1.1px;
   margin-bottom: 28px; }
+  @media screen and (max-width: 675px) {
+    .story-title {
+      margin-top: 30px; } }
 
 .story-descr__p {
   color: #413d4b;
@@ -252,12 +282,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #0de2d2;
   font-family: "Hammersmith One", sans-serif;
   font-size: 16px;
-  font-weight: 600;
-  padding: 10px 15px 10px 15px;
+  font-weight: 500;
+  padding: 13px 15px 10px 15px;
   text-transform: uppercase;
   border: 1px solid #00e0d0;
-  border-radius: 4px;
+  border-radius: 6px;
   background-color: white; }
+  @media screen and (max-width: 675px) {
+    .story-btn {
+      font-size: 20px;
+      padding: 18px 55px 14px 55px;
+      margin-top: 10px;
+      margin-bottom: 5px; } }
+
+.story-btn:hover {
+  color: white;
+  border: 1px solid #423275;
+  background-color: #423275; }
 
 .story-video {
   max-width: 1600px;
