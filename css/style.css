@@ -300,39 +300,31 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #423275;
   background-color: #423275; }
 
+.story-video .main-container {
+  padding-left: 0;
+  padding-right: 0; }
+
 .story-video {
   max-width: 1600px;
-  height: 550px;
+  min-height: 315px;
   margin: 0 auto;
-  background: url("../img/story-video/video-story.png") no-repeat;
-  block-size: cover;
-  background-position: 50%;
   background-color: #311655; }
+  @media screen and (max-width: 560px) {
+    .story-video {
+      min-height: 0; } }
 
-.story-video-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 550px; }
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
 
-.story-video__watch {
-  color: #ffffff;
-  font-family: "Roboto Black", sans-serif;
-  font-size: 16px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  margin-top: 34px; }
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
 
 .expertise {
   max-width: 1600px;
