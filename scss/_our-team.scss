@@ -1,13 +1,19 @@
 .our-team {
     max-width: 1600px;
     margin: auto;
-    min-height: 712px;
     background-color: rgb(49, 22, 85);
 }
 .team-wrapper {
-    background: url("../img/our-team/team-img-back.png") no-repeat;
+    background: url("../img/our-team/team-img-back.png");
     block-size: cover;
-    background-position: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media screen and (max-width:947px) {
+        background: url("../img/our-team/team-img-bac.png");
+    }
+    @media screen and (max-width:483px) {
+        background: url("../img/our-team/team-img-back.png");
+    }
 }
 .main-container {}
 .team-wrapper-inner{
@@ -42,13 +48,22 @@
 }
 .team-items {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 60px;
 }
+.team-items-row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .team-item {
     border: 1px solid rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
 }
 .team-item__foto {
     width: 220px;
@@ -74,7 +89,9 @@
     margin-top: 2px;
     margin-bottom: 20px;
 }
-.team-footer {}
+.team-footer {
+    
+}
 .team-welcome {
     color: #f3f3f3;
     font-family: "Roboto", sans-serif;
@@ -90,9 +107,12 @@
     font-family: "Hammersmith One", sans-serif;
     font-size: 16px;
     font-weight: 400;
+    padding: 13px 15px 10px 15px;
     text-transform: uppercase;
-    padding: 10px 15px 10px 15px;
     border: 1px solid #00e0d0;
     border-radius: 4px;
     background-color: rgba(69, 27, 111, 0);
+    @media screen and (max-width:947px) {
+        margin-bottom: 30px;
+    }
 }

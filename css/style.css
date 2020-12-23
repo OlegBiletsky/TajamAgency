@@ -418,13 +418,19 @@ h1, h2, h3, h4, h5, h6 {
 .our-team {
   max-width: 1600px;
   margin: auto;
-  min-height: 712px;
   background-color: #311655; }
 
 .team-wrapper {
-  background: url("../img/our-team/team-img-back.png") no-repeat;
+  background: url("../img/our-team/team-img-back.png");
   block-size: cover;
-  background-position: 50%; }
+  background-repeat: no-repeat;
+  background-position: center; }
+  @media screen and (max-width: 947px) {
+    .team-wrapper {
+      background: url("../img/our-team/team-img-bac.png"); } }
+  @media screen and (max-width: 483px) {
+    .team-wrapper {
+      background: url("../img/our-team/team-img-back.png"); } }
 
 .team-wrapper-inner {
   min-height: 712px; }
@@ -460,15 +466,33 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 60px; }
 
+.team-items-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
 .team-item {
-  border: 1px solid white; }
+  border: 1px solid white;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px; }
 
 .team-item__foto {
   width: 220px;
@@ -514,6 +538,9 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #00e0d0;
   border-radius: 4px;
   background-color: rgba(69, 27, 111, 0); }
+  @media screen and (max-width: 947px) {
+    .team-button {
+      margin-bottom: 30px; } }
 
 .our-works {
   max-width: 1600px;
