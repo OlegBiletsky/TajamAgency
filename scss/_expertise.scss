@@ -1,13 +1,16 @@
 .expertise {
     max-width: 1600px;
     margin: auto;
-    min-height: 755px;
 }
 .main-container {}
 .expertise-wrapper {}
 .expertise-titles {
     padding-top: 30px;
     padding-bottom: 50px;
+    @media screen and (max-width: 960px) {
+        padding-top: 15px;
+        padding-bottom: 15px;        
+    }
 }
 .expertise-title {
     color: rgb(65, 61, 75);
@@ -17,6 +20,9 @@
     text-transform: uppercase;
     padding-top: 30px;
     margin-bottom: 13px;
+    @media screen and (max-width: 960px) {
+    
+    }
 }
 .expertise-subtitle {
     opacity: 0.75;
@@ -38,16 +44,30 @@
     justify-content: space-around;
     flex-wrap: wrap;
     padding-bottom: 80px;
+    @media screen and (max-width: 960px) {  
+        padding-bottom: 40px;
+    }
 }
 .expertise-item {
     max-width: 254px;
     padding-top: 25px;
     padding-bottom: 20px;
+    @media screen and (max-width: 960px) {  
+        margin-left: 20px;
+        margin-right: 20px;  
+        max-width: 350px;
+    }
+    @media screen and (max-width: 800px) {  
+        max-width: 400px;
+    }
 }
 .expertise-item__logo {
     height: 50px;
     margin-top: 5px;
     margin-bottom: 39px;
+    @media screen and (max-width: 960px) {  
+        margin-bottom: 20px;
+    }
 }
 .expertise-item__title {
     color: rgb(65, 61, 75);
