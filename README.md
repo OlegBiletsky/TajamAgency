@@ -7,4 +7,4 @@ The website is built and developed using the [HTML5](https://medium.com/search?q
 
 For compile/transpile SCSS files to CSS files I used [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) for [VS Code](https://code.visualstudio.com/download). 
 
-## Project structure
+## Project structure:
