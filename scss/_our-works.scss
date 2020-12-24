@@ -25,15 +25,25 @@
     justify-content: space-between;
     flex-direction: row;
 }
+.works-header__link:hover{
+    color: #423275;
+}
 .works-header__text {
-    color: rgb(65, 61, 75);
+    // color: rgb(65, 61, 75);
+    color: #423275;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.7px;
     margin-right: 10px;
 }
+.works-header__text:hover{
+    color: #423275;
+}
 .works-header__arrow {}
+.works-header__arrow:hover{
+    color: #423275;
+}
 .works-items {
     max-width: 1600px;
     margin: 0 auto;

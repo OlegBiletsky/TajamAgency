@@ -1,4 +1,4 @@
-@charset "UTF-8";
+  @charset "UTF-8";
 /********************* FONTS ************************/
 /* Hammersmith One, regular*/
 /*font-family: 'Hammersmith One', sans-serif;*/
@@ -616,13 +616,22 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-direction: row;
           flex-direction: row; }
 
+.works-header__link:hover {
+  color: #423275; }
+
 .works-header__text {
-  color: #413d4b;
+  color: #423275;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.7px;
   margin-right: 10px; }
+
+.works-header__text:hover {
+  color: #423275; }
+
+.works-header__arrow:hover {
+  color: #423275; }
 
 .works-items {
   max-width: 1600px;
