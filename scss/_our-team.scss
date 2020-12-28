@@ -126,7 +126,8 @@
     font-family: "Hammersmith One", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    padding: 13px 15px 10px 15px;
+    // padding: 13px 15px 10px 15px;
+    padding: 13px 55px 10px 55px;
     text-transform: uppercase;
     border: 1px solid #00e0d0;
     border-radius: 6px;
@@ -143,7 +144,6 @@
 }
 .team-button:hover {
     color: #423275;
-    border: 1px solid #00e0d0;
     border: 1px solid #423275;
-    background-color: #00e0d0;
+    background-color: #ffffff;
 }
