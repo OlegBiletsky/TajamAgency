@@ -1,4 +1,4 @@
-  @charset "UTF-8";
+@charset "UTF-8";
 /********************* FONTS ************************/
 /* Hammersmith One, regular*/
 /*font-family: 'Hammersmith One', sans-serif;*/
@@ -595,6 +595,22 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center;
   padding-top: 70px;
   padding-bottom: 70px; }
+  @media screen and (max-width: 1064px) {
+    .works-header {
+      padding-left: 80px;
+      padding-right: 80px;
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+  @media screen and (max-width: 798px) {
+    .works-header {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 30px;
+      padding-bottom: 30px; } }
 
 .works-header__title {
   color: #413d4b;
@@ -603,6 +619,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.1px; }
+  @media screen and (max-width: 798px) {
+    .works-header__title {
+      margin-bottom: 35px; } }
 
 .works-header__link {
   display: -webkit-box;
@@ -625,7 +644,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.7px;
-  margin-right: 10px; }
+  margin-right: 5px; }
 
 .works-header__text:hover {
   color: #423275; }
@@ -669,15 +688,26 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: center; }
 
 .works-footer__btn {
-  color: #00e0d0;
-  font-family: "Hammersmith One";
+  color: #8b8b8b;
+  font-family: "Hammersmith One", sans-serif;
   font-size: 16px;
-  font-weight: 600;
-  padding: 10px 15px 10px 15px;
+  font-weight: 500;
+  padding: 13px 15px 10px 15px;
   text-transform: uppercase;
-  border: 1px solid #00e0d0;
-  border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0); }
+  border: 1px solid #8d8d8d;
+  border-radius: 6px;
+  background-color: white; }
+  @media screen and (max-width: 947px) {
+    .works-footer__btn {
+      font-size: 20px;
+      padding: 18px 55px 14px 55px;
+      margin-top: 10px;
+      margin-bottom: 5px; } }
+
+.works-footer__btn:hover {
+  color: white;
+  border: 1px solid #ffffff;
+  background-color: #666666; }
 
 .feedbacks {
   max-width: 1600px;
@@ -698,7 +728,7 @@ h1, h2, h3, h4, h5, h6 {
 .feedbacks-symbol {
   color: #ffffff;
   font-family: "Playfair Display", serif;
-  font-size: 100px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 22px;
   letter-spacing: 3px;
