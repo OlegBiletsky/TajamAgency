@@ -711,19 +711,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .feedbacks {
   max-width: 1600px;
-  margin: auto; }
+  margin: auto;
+  background-color: #cf8f8f; }
 
 .feedbacks-wrapper {
   max-width: 1600px;
   margin: auto;
   background-color: #311655;
   background: url("../img/feedbacks/feedbackfon.png") no-repeat;
-  block-size: cover;
-  background-position: 50%; }
-
-.feedbacks-wrapper-inner {
-  padding-top: 35px;
-  padding-bottom: 34px; }
+  block-size: contain;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  @media screen and (max-width: 947px) {
+    .feedbacks-wrapper {
+      background: url("../img/feedbacks/feedbackfon2.png"); } }
+  @media screen and (max-width: 483px) {
+    .feedbacks-wrapper {
+      background: url("../img/feedbacks/feedbackfon2.png"); } }
 
 .feedbacks-symbol {
   color: #ffffff;
