@@ -4,17 +4,26 @@
     padding-top: 36px;
     padding-bottom: 35px;
 }
-.prefooter-wrapper {}
-.main-container {}
+.prefooter-wrapper {
+}
 .prefooter-wrapper-inner {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
 }
 .inputs-block {
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-right: 50px;
+    @media screen and (max-width: 1000px) {
+        margin-bottom: 40px;
+    }
 }
 .input-title {
     color: #413d4b;
@@ -25,6 +34,10 @@
     letter-spacing: 1.1px;
     margin-top: 36px;
     margin-bottom: 35px;
+    @media screen and (max-width: 1000px) {
+        margin: auto;
+        margin-bottom: 20px;
+    }
 }
 .input-name {
     opacity: 0.5;
@@ -33,12 +46,15 @@
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.7px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
     padding-top: 18px;
     padding-bottom: 17px;
     padding-left: 21px;
     margin-bottom: 22px;
     min-width: 460px;
+    @media screen and (max-width: 500px) {
+        min-width: 330px;
+    }
 }
 .input-email {
     opacity: 0.5;
@@ -47,12 +63,15 @@
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.7px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
     padding-top: 18px;
     padding-bottom: 17px;
     padding-left: 21px;
     margin-bottom: 22px;
     min-width: 460px;
+    @media screen and (max-width: 500px) {
+        min-width: 330px;
+    }
 }
 .input-subject {
     opacity: 0.5;
@@ -61,12 +80,15 @@
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.7px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
     padding-top: 18px;
     padding-bottom: 17px;
     padding-left: 21px;
     margin-bottom: 22px;
     min-width: 460px;
+    @media screen and (max-width: 500px) {
+        min-width: 330px;
+    }
 }
 .input-area {
     opacity: 0.5;
@@ -75,7 +97,7 @@
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.7px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
     padding-top: 18px;
     padding-bottom: 17px;
     padding-left: 21px;
@@ -83,47 +105,83 @@
     min-width: 460px;
     max-width: 460px;
     min-height: 200px;
+    @media screen and (max-width: 500px) {
+        min-width: 330px;
+    }
 }
 .input-button {
-    color: #00e0d0;
-    font-family: "Hammersmith One";
+    color: #ffffff;
+    font-family: "Hammersmith One", sans-serif;
     font-size: 16px;
-    font-weight: 600;
-    padding: 10px 15px 10px 15px;
+    font-weight: 500;
+    padding: 18px 60px 14px 60px;
     text-transform: uppercase;
-    border: 1px solid #00e0d0;
-    border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background-color: rgb(66, 50, 117);
     margin-bottom: 35px;
+    min-width: 460px;
+    @media screen and (max-width: 1000px) {
+        min-width: 460px;
+    }
+    @media screen and (max-width: 500px) {
+        min-width: 330px;
+    }
 }
+.input-button:hover{
+    color: rgb(66, 50, 117);
+    border: 1px solid rgb(66, 50, 117);
+    background-color: rgb(255, 255, 255);
+}
+
+
+
 .clients {
     display: flex;
     flex-direction: column;
     align-items: start;
+    @media screen and (max-width: 500px) {
+        align-items: center;
+    }
 }
 .clients__title {
     color: #413d4b;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.1px;
     margin-top: 36px;
     margin-bottom: 35px;
+    @media screen and (max-width: 1000px) {
+        margin: auto;
+        margin-bottom: 40px;
+    }
+   
 }
 .clients-logos {
     display: flex;
+    @media screen and (max-width: 500px) {
+        flex-direction: column;
+    }
 }
 .clients-logos__col1 {
     display: flex;
     flex-direction: column;
     align-items: start;
     margin-right: 80px;
+    @media screen and (max-width: 500px) {
+        margin-right: 0;
+        align-items: center;
+    }
 }
 .clients-logos__col2 {
     display: flex;
     flex-direction: column;
     align-items: start;
+    @media screen and (max-width: 500px) {
+        align-items: center;
+    }
 }
 .clients-logos__item {
     margin-bottom: 45px;
