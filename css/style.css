@@ -1289,7 +1289,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-top {
-  padding-top: 81px;
+  padding-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1379,7 +1379,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 15px;
 }
 
-.footer-location__logo {
+.fa-map-marker-alt {
+  color: #ffffff;
+  font-size: 20px;
   margin-right: 16px;
 }
 
@@ -1408,7 +1410,9 @@ h1, h2, h3, h4, h5, h6 {
           align-items: start;
 }
 
-.footer-phone__logo {
+.fa-phone {
+  color: #ffffff;
+  font-size: 20px;
   margin-right: 16px;
 }
 
@@ -1466,25 +1470,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-subscriber__input {
-  opacity: 0.75;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 26px;
   letter-spacing: 0.7px;
-  padding: 17px 26px 17px 16px;
+  padding: 17px 18px 17px 16px;
   background-color: rgba(255, 255, 255, 0);
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 6px 0 0 6px;
   width: 211px;
-  margin-right: 10px;
 }
 
-.footer-subscriber__logo {
-  border: 1px solid #ffffff;
+.footer-subscribe__btn {
+  background-color: #fff;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.fa-paper-plane {
+  padding: 14px 20px 10px 20px;
+  font-size: 30px;
   background-color: #ffffff;
-  opacity: 0.5;
-  padding: 10px 22px 10px 23px;
+  color: #311655;
 }
 
 .footer-icons {
@@ -1503,8 +1511,48 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center;
 }
 
-.footer-icons__item {
-  background-color: #ffffff00;
+.fa-facebook-f {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  margin-right: 8px;
+  padding: 10px 13px 10px 13px;
+}
+
+.fa-twitter {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  margin-right: 8px;
+  padding: 10px 10px 10px 10px;
+}
+
+.fa-globe {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  margin-right: 8px;
+  padding: 10px 10px 10px 10px;
+}
+
+.fa-instagram {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  margin-right: 8px;
+  padding: 10px 11px 10px 11px;
+}
+
+.fa-google-plus-g {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  margin-right: 8px;
+  padding: 10px 9px 10px 9px;
+}
+
+.fa-youtube {
+  color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 50%;
   margin-right: 8px;
@@ -1521,7 +1569,7 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: space-between;
 }
 
-.footer-bottom1 {
+.footer-bottom-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1530,7 +1578,7 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: space-between;
 }
 
-.footer-bottom1-1 {
+.footer-bottom-left-item {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -1541,7 +1589,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 30px;
 }
 
-.footer-bottom2 {
+.footer-bottom-right {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
