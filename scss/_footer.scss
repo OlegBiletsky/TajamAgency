@@ -9,6 +9,12 @@
     background: url("../img/footer/footer-fon.png") no-repeat;
     block-size: cover;
     background-position: 50%;
+    @media screen and (max-width:1000px) {
+        background: url("../img/footer/footer-fon2.png") no-repeat;
+    }
+    @media screen and (max-width:1000px) {
+        background: url("../img/footer/footer-fon3.png") no-repeat;
+    }
 }
 
 .footer-wrapper-inner {

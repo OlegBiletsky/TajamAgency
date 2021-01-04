@@ -1039,6 +1039,12 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/footer/footer-fon.png") no-repeat;
   block-size: cover;
   background-position: 50%; }
+  @media screen and (max-width: 1000px) {
+    .footer-wrapper {
+      background: url("../img/footer/footer-fon2.png") no-repeat; } }
+  @media screen and (max-width: 1000px) {
+    .footer-wrapper {
+      background: url("../img/footer/footer-fon3.png") no-repeat; } }
 
 .footer-wrapper-inner {
   display: -webkit-box;
