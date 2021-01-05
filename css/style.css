@@ -1192,7 +1192,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 42px; }
   @media screen and (max-width: 700px) {
     .footer-col2__title {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
+      margin-top: 10px;
       margin-left: 70px; } }
 
 .footer-location {
@@ -1304,7 +1305,7 @@ h1, h2, h3, h4, h5, h6 {
   @media screen and (max-width: 700px) {
     .footer-col3__title {
       display: block;
-      margin-bottom: 20px; } }
+      margin-bottom: 10px; } }
 
 .footer-subscriber {
   margin-top: 39px;
@@ -1337,7 +1338,16 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(255, 255, 255, 0);
   border: 2px solid #ffffff;
   border-radius: 6px 0 0 6px;
-  width: 211px; }
+  width: 211px;
+  -webkit-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out; }
+
+.footer-subscriber__input:focus {
+  background-color: rgba(255, 255, 255, 0.253);
+  -webkit-transition: color 10s ease-out;
+  -o-transition: color 10s ease-out;
+  transition: color 10s ease-out; }
 
 .footer-subscribe__btn {
   background-color: #fff;
@@ -1370,13 +1380,16 @@ h1, h2, h3, h4, h5, h6 {
     .footer-icons {
       margin-left: 0; } }
 
-@media screen and (max-width: 1000px) {
-  .footer-icons a {
-    margin-left: 2px; } }
-
-@media screen and (max-width: 700px) {
-  .footer-icons a {
-    margin-left: 0; } }
+.footer-icons a {
+  -webkit-transition: background-color 3s ease-in;
+  -o-transition: background-color 3s ease-in;
+  transition: background-color 3s ease-in; }
+  @media screen and (max-width: 1000px) {
+    .footer-icons a {
+      margin-left: 2px; } }
+  @media screen and (max-width: 700px) {
+    .footer-icons a {
+      margin-left: 0; } }
 
 .fa-facebook-f {
   color: #ffffff;
@@ -1488,7 +1501,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 26px;
   text-transform: uppercase;
   letter-spacing: 0.35px;
-  margin-right: 30px; }
+  margin-right: 30px;
+  -webkit-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out; }
   @media screen and (max-width: 1000px) {
     .footer-bottom-left-item {
       margin-right: 10;
@@ -1497,6 +1513,9 @@ h1, h2, h3, h4, h5, h6 {
     .footer-bottom-left-item {
       margin-bottom: 10px; } }
 
+.footer-bottom-left-item:hover {
+  color: #ffffff71; }
+
 .footer-bottom-right {
   color: #ffffff3b;
   font-family: "Roboto", sans-serif;
@@ -1504,11 +1523,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0.35px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  -webkit-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out; }
   @media screen and (max-width: 1000px) {
     .footer-bottom-right {
       margin-top: 20px;
       margin-bottom: 10px; } }
+
+.footer-bottom-right:hover {
+  color: #ffffff71; }
 
 /**************************************************/
 /*# sourceMappingURL=style.css.map */
