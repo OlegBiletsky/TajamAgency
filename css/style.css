@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   text-transform: uppercase; }
 
-.header__navlink_active {
+.header__navlink:hover {
   color: #00e0d0; }
 
 .header__text {
@@ -190,19 +190,30 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 24px;
   letter-spacing: 0.7px;
   margin-top: 20px;
-  margin-bottom: 40px; }
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px; }
 
 .header__text-btn {
-  color: #00e0d0;
-  font-family: "Hammersmith One";
+  color: #0de2d2;
+  font-family: "Hammersmith One", sans-serif;
   font-size: 16px;
-  font-weight: 600;
-  padding: 10px 15px 10px 15px;
+  font-weight: 500;
+  padding: 13px 15px 10px 15px;
   text-transform: uppercase;
   border: 1px solid #00e0d0;
-  border-radius: 4px;
+  border-radius: 6px;
   background-color: rgba(255, 255, 255, 0);
-  margin-bottom: 127px; }
+  margin-top: 50px; }
+  @media screen and (max-width: 675px) {
+    .header__text-btn {
+      font-size: 20px;
+      padding: 18px 55px 14px 55px; } }
+
+.header__text-btn:hover {
+  color: #423275;
+  border: 1px solid #ffffff;
+  background-color: #fafafa; }
 
 .our-story {
   min-height: 400px;
