@@ -3,7 +3,6 @@
     margin: auto;
     max-width: 1600px;
 }
-.main-container {}
 .story-wrapper {
     max-width: 1600px;
     display: flex;
@@ -44,7 +43,7 @@
     }
 }
 .story-title {
-    color: #413d4b;
+    color: rgb(65, 61, 75);
     font-family: "Playfair Display", sans-serif;
     font-size: 22px;
     font-weight: 700;
@@ -55,9 +54,8 @@
         margin-top: 30px;
     }
 }
-.story-descr {}
 .story-descr__p {
-    color: #413d4b;
+    color: rgb(65, 61, 75);
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 300;
@@ -72,7 +70,7 @@
     font-weight: 500;
     padding: 13px 15px 10px 15px;
     text-transform: uppercase;
-    border: 1px solid #00e0d0;
+    border: 1px solid rgb(0, 224, 208);
     border-radius: 6px;
     background-color: rgb(255, 255, 255);
     @media screen and (max-width: 675px) {
@@ -84,6 +82,6 @@
 }
 .story-btn:hover {
     color: rgb(255, 255, 255);
-    border: 1px solid #423275;
+    border: 1px solid rgb(66, 50, 117);
     background-color: rgb(66, 50, 117);
 }

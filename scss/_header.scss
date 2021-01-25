@@ -1,7 +1,7 @@
 .header-wrapper {
     max-width: 1600px;
     margin: 0 auto;
-    background-color: #311655;
+    background-color: rgb(49, 22, 85);
 }
 .header {
     height: 670px;
@@ -29,7 +29,6 @@
     align-items: center;
     margin-left: 10px;
 }
-.main-logo {}
 .logo-svg {
     width: 44px;
     height: 50px;
@@ -50,7 +49,7 @@
     }
 }
 .header__navlink {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     margin-right: 15px;
@@ -59,7 +58,7 @@
     text-transform: uppercase;
 }
 .header__navlink:hover{
-    color: #00e0d0;
+    color: rgb(0, 224, 208);
 }
 .header__text {
     max-width: 770px;
@@ -67,7 +66,7 @@
     margin: auto;
 }
 .header__title {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-family: "Playfair Display", sans-serif;
     font-weight: 900;
     font-size: 32px;
@@ -86,7 +85,7 @@
 }
 .header__separator {}
 .header__descr {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 300;
@@ -108,7 +107,7 @@
     font-weight: 500;
     padding: 13px 15px 10px 15px;
     text-transform: uppercase;
-    border: 1px solid #00e0d0;
+    border: 1px solid rgb(0, 224, 208);
     border-radius: 6px;
     background-color: rgba(255, 255, 255, 0);
     margin-top: 50px;
@@ -116,10 +115,9 @@
         font-size: 20px;
         padding: 18px 55px 14px 55px;
     }
-
 }
 .header__text-btn:hover {
     color: rgb(66, 50, 117);
-    border: 1px solid #ffffff;
+    border: 1px solid rgb(255, 255, 255);
     background-color: rgb(250, 250, 250);
 }

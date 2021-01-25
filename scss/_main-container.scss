@@ -1,8 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
 .main-container {
-    max-width: 960px;/*МАКСИМАЛЬНА ШИРИНА КОНТЕЙНЕРА*/
-    height: 100%;/*КОНТЕЙНЕР ЙДЕ НА ВСЮ ВИСОТУ НАСКРІЗЬ*/
-    margin: 0 auto;/*вирівнювання контейнера по горизонталі*/
-    text-align: center;/*внутрінність контейнера центрується*/
+    max-width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
     padding-left: 10px;
     padding-right: 10px;
 }

@@ -1,16 +1,6 @@
-@charset "UTF-8";
 /********************* FONTS ************************/
-/* Hammersmith One, regular*/
-/*font-family: 'Hammersmith One', sans-serif;*/
-/*<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">*/
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
-/*Playfair Display, bold , regular, black*/
-/*font-family: 'Playfair Display', serif;*/
-/*<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap");
-/*Roboto, light, regular, black, thin*/
-/*font-family: 'Roboto', sans-serif;*/
-/*<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap" rel="stylesheet">*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap");
 /**************************************************/
 /******************* RESET STYLE ******************/
@@ -73,15 +63,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /**************************************************/
 /**************** others sections *****************/
+html {
+  scroll-behavior: smooth; }
+
 .main-container {
   max-width: 960px;
-  /*МАКСИМАЛЬНА ШИРИНА КОНТЕЙНЕРА*/
   height: 100%;
-  /*КОНТЕЙНЕР ЙДЕ НА ВСЮ ВИСОТУ НАСКРІЗЬ*/
   margin: 0 auto;
-  /*вирівнювання контейнера по горизонталі*/
   text-align: center;
-  /*внутрінність контейнера центрується*/
   padding-left: 10px;
   padding-right: 10px; }
 
@@ -161,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
       display: none; } }
 
 .header__navlink {
-  color: #ffffff;
+  color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   margin-right: 15px;
@@ -178,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto; }
 
 .header__title {
-  color: #ffffff;
+  color: white;
   font-family: "Playfair Display", sans-serif;
   font-weight: 900;
   font-size: 32px;
@@ -196,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
       margin-top: 40px; } }
 
 .header__descr {
-  color: #ffffff;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -229,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__text-btn:hover {
   color: #423275;
-  border: 1px solid #ffffff;
+  border: 1px solid white;
   background-color: #fafafa; }
 
 .our-story {
@@ -471,7 +460,7 @@ h1, h2, h3, h4, h5, h6 {
       padding-bottom: 10px; } }
 
 .team-title {
-  color: #ffffff;
+  color: white;
   font-family: "Playfair Display";
   font-size: 22px;
   font-weight: 700;
@@ -599,7 +588,7 @@ h1, h2, h3, h4, h5, h6 {
 .team-button:hover {
   color: #423275;
   border: 1px solid #423275;
-  background-color: #ffffff; }
+  background-color: white; }
 
 .our-works {
   max-width: 1600px;
@@ -733,7 +722,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .works-footer__btn:hover {
   color: white;
-  border: 1px solid #ffffff;
+  border: 1px solid white;
   background-color: #666666; }
 
 .feedbacks {
@@ -758,7 +747,7 @@ h1, h2, h3, h4, h5, h6 {
       background: url("../img/feedbacks/feedbackfon2.png"); } }
 
 .feedbacks-symbol {
-  color: #ffffff;
+  color: white;
   font-family: "Playfair Display", serif;
   font-size: 40px;
   font-weight: 400;
@@ -768,7 +757,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 21px; }
 
 .feedbacks-text {
-  color: #ffffff;
+  color: white;
   font-family: "Playfair Display";
   font-size: 16px;
   font-weight: 400;
@@ -784,7 +773,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 23px; }
 
 .feedbaks-member__name {
-  color: #ffffff;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 900;
@@ -793,7 +782,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.7px; }
 
 .feedbacks-member__position {
-  color: #ffffff;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 300;
@@ -952,13 +941,13 @@ h1, h2, h3, h4, h5, h6 {
       min-width: 330px; } }
 
 .input-button {
-  color: #ffffff;
+  color: white;
   font-family: "Hammersmith One", sans-serif;
   font-size: 16px;
   font-weight: 500;
   padding: 18px 60px 14px 60px;
   text-transform: uppercase;
-  border: 1px solid #ffffff;
+  border: 1px solid white;
   border-radius: 6px;
   background-color: #423275;
   margin-bottom: 35px;
@@ -1174,7 +1163,7 @@ h1, h2, h3, h4, h5, h6 {
       margin-left: 0; } }
 
 .footer-col1__desrc {
-  color: #ffffff;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -1210,7 +1199,7 @@ h1, h2, h3, h4, h5, h6 {
       margin-left: 20px; } }
 
 .footer-col2__title {
-  color: #ffffff;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 900;
@@ -1241,12 +1230,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 15px; }
 
 .fa-map-marker-alt {
-  color: #ffffff;
+  color: white;
   font-size: 20px;
   margin-right: 16px; }
 
 .footer-location__adress {
-  color: #ffffff;
+  color: white;
   font-family: "Roboto" , sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -1269,12 +1258,12 @@ h1, h2, h3, h4, h5, h6 {
           align-items: start; }
 
 .fa-phone {
-  color: #ffffff;
+  color: white;
   font-size: 20px;
   margin-right: 16px; }
 
 .footer-phone__number {
-  color: #ffffff;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -1320,7 +1309,7 @@ h1, h2, h3, h4, h5, h6 {
               flex-direction: column; } }
 
 .footer-col3__title {
-  color: #ffffff;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 900;
@@ -1356,7 +1345,7 @@ h1, h2, h3, h4, h5, h6 {
       margin-bottom: 30px; } }
 
 .footer-subscriber__input {
-  color: #ffffff;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -1364,7 +1353,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.7px;
   padding: 17px 18px 17px 16px;
   background-color: rgba(255, 255, 255, 0);
-  border: 2px solid #ffffff;
+  border: 2px solid white;
   border-radius: 6px 0 0 6px;
   width: 211px;
   -webkit-transition: color 1s ease-out;
@@ -1378,13 +1367,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: color 10s ease-out; }
 
 .footer-subscribe__btn {
-  background-color: #fff;
+  background-color: white;
   border-radius: 0px 6px 6px 0px; }
 
 .fa-paper-plane {
   padding: 14px 20px 10px 20px;
   font-size: 30px;
-  background-color: #ffffff;
+  background-color: white;
   color: #311655; }
 
 .footer-icons {
@@ -1420,70 +1409,70 @@ h1, h2, h3, h4, h5, h6 {
       margin-left: 0; } }
 
 .fa-facebook-f {
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: white;
+  border: 1px solid white;
   border-radius: 50%;
   margin-right: 8px;
   padding: 10px 13px 10px 13px; }
 
 .fa-facebook-f:hover {
   color: #2432af;
-  background-color: #fff; }
+  background-color: white; }
 
 .fa-twitter {
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: white;
+  border: 1px solid white;
   border-radius: 50%;
   margin-right: 8px;
   padding: 10px 10px 10px 10px; }
 
 .fa-twitter:hover {
   color: #337fbd;
-  background-color: #fff; }
+  background-color: white; }
 
 .fa-globe {
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: white;
+  border: 1px solid white;
   border-radius: 50%;
   margin-right: 8px;
   padding: 10px 10px 10px 10px; }
 
 .fa-globe:hover {
   color: black;
-  background-color: #fff; }
+  background-color: white; }
 
 .fa-instagram {
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: white;
+  border: 1px solid white;
   border-radius: 50%;
   margin-right: 8px;
   padding: 10px 11px 10px 11px; }
 
 .fa-instagram:hover {
   color: #cf41ec;
-  background-color: #fff; }
+  background-color: white; }
 
 .fa-google-plus-g {
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: white;
+  border: 1px solid white;
   border-radius: 50%;
   margin-right: 8px;
   padding: 10px 9px 10px 9px; }
 
 .fa-google-plus-g:hover {
   color: #df3636;
-  background-color: #fff; }
+  background-color: white; }
 
 .fa-youtube {
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: white;
+  border: 1px solid white;
   border-radius: 50%;
   margin-right: 8px;
   padding: 10px 10px 10px 10px; }
 
 .fa-youtube:hover {
   color: #991717;
-  background-color: #fff; }
+  background-color: white; }
 
 .footer-bottom {
   margin-top: 71px;
@@ -1522,7 +1511,7 @@ h1, h2, h3, h4, h5, h6 {
               flex-direction: column; } }
 
 .footer-bottom-left-item {
-  color: #ffffff3b;
+  color: rgba(255, 255, 255, 0.231);
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1542,10 +1531,10 @@ h1, h2, h3, h4, h5, h6 {
       margin-bottom: 10px; } }
 
 .footer-bottom-left-item:hover {
-  color: #ffffff71; }
+  color: rgba(255, 255, 255, 0.443); }
 
 .footer-bottom-right {
-  color: #ffffff3b;
+  color: rgba(255, 255, 255, 0.231);
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1561,7 +1550,7 @@ h1, h2, h3, h4, h5, h6 {
       margin-bottom: 10px; } }
 
 .footer-bottom-right:hover {
-  color: #ffffff71; }
+  color: rgba(255, 255, 255, 0.443); }
 
 /**************************************************/
 /*# sourceMappingURL=style.css.map */
