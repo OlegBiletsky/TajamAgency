@@ -221,6 +221,78 @@ html {
   border: 1px solid white;
   background-color: #fafafa; }
 
+.hamburger-button {
+  position: absolute;
+  z-index: 1000;
+  top: 40px;
+  right: 35px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
+  background-size: 100%; }
+
+.showClose {
+  background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg"); }
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: -webkit-transform 0.2s ease;
+  -o-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, -webkit-transform 0.2s ease; }
+
+.showNav {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0); }
+
+.navbar ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.menuLink {
+  font-size: 25px;
+  color: white;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem; }
+
+.navbar ul li {
+  margin-bottom: 50px; }
+
+.menuLink:hover, .menuLink:focus {
+  border-bottom: 2px solid white; }
+
 .our-story {
   min-height: 400px;
   margin: auto;
