@@ -1,21 +1,22 @@
 let navbar = document.getElementById("navbar");
-let ham = document.getElementById("hamburger-button");
+let hamburger_button = document.getElementById("hamburger-button");
+
+hamburger_button.onclick = toggleHamburger;
 
 function toggleHamburger(){
     navbar.classList.toggle("showNav");
-    ham.classList.toggle("showClose");
 }
 
-ham.addEventListener("click", toggleHamburger);
+
 
 
 let menuLinks = document.querySelectorAll(".menuLink");
-
 menuLinks.forEach( 
-  function(menuLink) { 
-    menuLink.addEventListener("click", toggleHamburger) 
+  function(e) { 
+    e.addEventListener("click", toggleHamburger) 
   }
 )
+
 
 /*
 function checkToggle(e){

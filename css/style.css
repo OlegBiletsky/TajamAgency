@@ -222,6 +222,7 @@ html {
   background-color: #fafafa; }
 
 .hamburger-button {
+  display: none;
   position: absolute;
   z-index: 1000;
   top: 40px;
@@ -231,13 +232,21 @@ html {
   border: none;
   cursor: pointer;
   background-color: transparent;
-  background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
   background-size: 100%; }
+  @media screen and (max-width: 810px) {
+    .hamburger-button {
+      display: block; } }
 
-.showClose {
-  background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg"); }
+.fa-bars {
+  color: white;
+  font-size: 30px; }
+
+.fa-times {
+  color: white;
+  font-size: 30px; }
 
 .navbar {
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -254,6 +263,9 @@ html {
   -o-transition: transform 0.2s ease;
   transition: transform 0.2s ease;
   transition: transform 0.2s ease, -webkit-transform 0.2s ease; }
+  @media screen and (max-width: 810px) {
+    .navbar {
+      display: block; } }
 
 .showNav {
   -webkit-transform: translateY(0);
