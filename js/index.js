@@ -15,13 +15,3 @@ menuLinks.forEach(
     menuLink.addEventListener("click", toggleHamburger) 
   }
 )
-
-/*
-function checkToggle(e){
-  var itemClicked = e.target
-  if (itemClicked.classList.contains("menuLink")) {
-    toggleHamburger()
-  }
-}
-navbar.addEventListener("click", checkToggle)
-*/
