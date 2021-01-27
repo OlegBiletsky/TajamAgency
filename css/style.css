@@ -1617,7 +1617,7 @@ body {
   color: rgba(255, 255, 255, 0.443); }
 
 .footer-bottom-right {
-  color: rgba(255, 255, 255, 0.231);
+  color: rgba(255, 255, 255, 0.466);
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1632,8 +1632,8 @@ body {
       margin-top: 20px;
       margin-bottom: 10px; } }
 
-.footer-bottom-right:hover {
-  color: rgba(255, 255, 255, 0.443); }
+.fa-copyright {
+  color: rgba(255, 255, 255, 0.466); }
 
 /**************************************************/
 /*# sourceMappingURL=style.css.map */
