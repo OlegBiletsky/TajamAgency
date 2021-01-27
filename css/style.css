@@ -968,7 +968,7 @@ body {
   min-width: 460px; }
   @media screen and (max-width: 500px) {
     .input-name {
-      min-width: 330px; } }
+      min-width: 320px; } }
 
 .input-email {
   opacity: 0.5;
@@ -985,7 +985,7 @@ body {
   min-width: 460px; }
   @media screen and (max-width: 500px) {
     .input-email {
-      min-width: 330px; } }
+      min-width: 320px; } }
 
 .input-subject {
   opacity: 0.5;
@@ -1002,7 +1002,7 @@ body {
   min-width: 460px; }
   @media screen and (max-width: 500px) {
     .input-subject {
-      min-width: 330px; } }
+      min-width: 320px; } }
 
 .input-area {
   opacity: 0.5;
@@ -1021,7 +1021,7 @@ body {
   min-height: 200px; }
   @media screen and (max-width: 500px) {
     .input-area {
-      min-width: 330px; } }
+      min-width: 320px; } }
 
 .input-button {
   color: white;
@@ -1040,7 +1040,7 @@ body {
       min-width: 460px; } }
   @media screen and (max-width: 500px) {
     .input-button {
-      min-width: 330px; } }
+      min-width: 320px; } }
 
 .input-button:hover {
   color: #423275;
