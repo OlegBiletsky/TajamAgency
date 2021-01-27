@@ -441,7 +441,7 @@ body {
 
 .expertise-title {
   color: #413d4b;
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display', serif;
   font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
@@ -451,7 +451,7 @@ body {
 .expertise-subtitle {
   opacity: 0.75;
   color: #2f2d35;
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display', serif;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 1.05px;
@@ -499,7 +499,7 @@ body {
 
 .expertise-item__title {
   color: #413d4b;
-  font-family: "Roboto - Black", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 900;
   text-transform: uppercase;
@@ -510,7 +510,7 @@ body {
 .expertise-item__descr {
   opacity: 0.75;
   color: #333333;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
@@ -832,7 +832,7 @@ body {
 
 .feedbacks-symbol {
   color: white;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 22px;
@@ -842,7 +842,7 @@ body {
 
 .feedbacks-text {
   color: white;
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display';
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -858,7 +858,7 @@ body {
 
 .feedbaks-member__name {
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 900;
   line-height: 22px;
@@ -867,7 +867,7 @@ body {
 
 .feedbacks-member__position {
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 13px;
   font-weight: 300;
   line-height: 22px;

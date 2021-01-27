@@ -7,21 +7,21 @@
     max-width: 1600px;
     margin: auto;
     background-color: rgb(49, 22, 85);
-    background: url("../img/feedbacks/feedbackfon.png") no-repeat;
+    background: url('../img/feedbacks/feedbackfon.png') no-repeat;
     block-size: contain;
     background-position: center;
     padding-top: 20px;
     padding-bottom: 20px;
     @media screen and (max-width:947px) {
-        background: url("../img/feedbacks/feedbackfon2.png");
+        background: url('../img/feedbacks/feedbackfon2.png');
     }
     @media screen and (max-width:483px) {
-        background: url("../img/feedbacks/feedbackfon2.png");
+        background: url('../img/feedbacks/feedbackfon2.png');
     }
 }
 .feedbacks-symbol {
     color: rgb(255, 255, 255);
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-size: 40px;
     font-weight: 400;
     line-height: 22px;
@@ -31,7 +31,7 @@
 }
 .feedbacks-text {
     color: rgb(255, 255, 255);
-    font-family: "Playfair Display";
+    font-family: 'Playfair Display';
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -47,7 +47,7 @@
 }
 .feedbaks-member__name {
     color: rgb(255, 255, 255);
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 900;
     line-height: 22px;
@@ -56,7 +56,7 @@
 }
 .feedbacks-member__position {
     color: rgb(255, 255, 255);
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-weight: 300;
     line-height: 22px;
