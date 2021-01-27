@@ -956,7 +956,7 @@ body {
 .input-name {
   opacity: 0.5;
   color: #413d4b;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.7px;
@@ -973,7 +973,7 @@ body {
 .input-email {
   opacity: 0.5;
   color: #413d4b;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.7px;
@@ -990,7 +990,7 @@ body {
 .input-subject {
   opacity: 0.5;
   color: #413d4b;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.7px;
@@ -1007,7 +1007,7 @@ body {
 .input-area {
   opacity: 0.5;
   color: #413d4b;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.7px;
