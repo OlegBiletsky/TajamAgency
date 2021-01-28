@@ -19,7 +19,7 @@
 }
 .works-header__title {
     color: rgb(65, 61, 75);
-    font-family: 'Playfair Display', serif;
+    font-family: $PD;
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
@@ -38,7 +38,7 @@
 }
 .works-header__text {
     color: rgb(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
+    font-family: $R;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.7px;
@@ -76,7 +76,7 @@
 }
 .works-footer__btn {
     color: rgb(139, 139, 139);
-    font-family: 'Hammersmith One', sans-serif;
+    font-family: $HO;
     font-size: 16px;
     font-weight: 500;
     padding: 13px 55px 10px 55px;

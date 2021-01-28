@@ -41,7 +41,7 @@
 }
 .story-title {
     color: rgb(65, 61, 75);
-    font-family: 'Playfair Display', sans-serif;
+    font-family: $PD;
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
@@ -53,7 +53,7 @@
 }
 .story-descr__p {
     color: rgb(65, 61, 75);
-    font-family: 'Roboto', sans-serif;
+    font-family: $R;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -62,7 +62,7 @@
 }
 .story-btn {
     color: rgb(13, 226, 210);
-    font-family: 'Hammersmith One', sans-serif;
+    font-family: $HO;
     font-size: 16px;
     font-weight: 500;
     padding: 13px 15px 10px 15px;
