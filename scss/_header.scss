@@ -1,3 +1,11 @@
+$header : rgb(49, 22, 85);
+$header : rgb(16, 161, 164);
+$header : rgb(255, 255, 255);
+$header : rgb(0, 224, 208);
+$header : rgb(13, 226, 210);
+$header : rgba(255, 255, 255, 0);
+$header : rgb(66, 50, 117);
+
 .header-wrapper {
     max-width: 1600px;
     margin: 0 auto;
@@ -110,5 +118,5 @@
 .header__text-btn:hover {
     color: rgb(66, 50, 117);
     border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(255, 255, 255);
 }

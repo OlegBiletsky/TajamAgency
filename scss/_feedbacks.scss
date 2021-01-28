@@ -1,12 +1,14 @@
+$feedbacks-purple : rgb(49, 22, 85);
+$feedbacks-white : rgb(255, 255, 255);
 .feedbacks {
     max-width: 1600px;
     margin: auto;
-    background-color: rgb(49, 22, 85);
+    background-color: $feedbacks-purple;
 }
 .feedbacks-wrapper {
     max-width: 1600px;
     margin: auto;
-    background-color: rgb(49, 22, 85);
+    background-color: $feedbacks-purple;
     background: url('../img/feedbacks/feedbackfon.png') no-repeat;
     block-size: contain;
     background-position: center;
@@ -19,7 +21,7 @@
     }
 }
 .feedbacks-symbol {
-    color: rgb(255, 255, 255);
+    color: $feedbacks-white;
     font-family: $PD;
     font-size: 40px;
     font-weight: 400;
@@ -28,7 +30,7 @@
     margin: 35px 0 21px 0;
 }
 .feedbacks-text {
-    color: rgb(255, 255, 255);
+    color: $feedbacks-white;
     font-family: $PD;
     font-size: 16px;
     font-weight: 400;
@@ -43,7 +45,7 @@
     margin: 26px 0 23px 0;
 }
 .feedbaks-member__name {
-    color: rgb(255, 255, 255);
+    color: $feedbacks-white;
     font-family: $R;
     font-size: 14px;
     font-weight: 900;
@@ -52,7 +54,7 @@
     letter-spacing: 0.7px;
 }
 .feedbacks-member__position {
-    color: rgb(255, 255, 255);
+    color: $feedbacks-white;
     font-family: $R;
     font-size: 13px;
     font-weight: 300;

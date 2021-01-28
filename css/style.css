@@ -218,7 +218,7 @@ body {
 .header__text-btn:hover {
   color: #423275;
   border: 1px solid white;
-  background-color: #fafafa; }
+  background-color: white; }
 
 /**************************************************/
 /**************** hamburger button ****************/

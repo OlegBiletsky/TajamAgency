@@ -1,3 +1,6 @@
+$expertise1 : rgb(65, 61, 75);
+$expertise2 : rgb(47, 45, 53);
+$expertise3 : rgb(51, 51, 51);
 .expertise {
     max-width: 1600px;
     margin: auto;
@@ -9,7 +12,7 @@
     }
 }
 .expertise-title {
-    color: rgb(65, 61, 75);
+    color: $expertise1;
     font-family: $PD;
     font-size: 22px;
     font-weight: 700;
@@ -19,7 +22,7 @@
 }
 .expertise-subtitle {
     opacity: 0.75;
-    color: rgb(47, 45, 53);
+    color: $expertise2;
     font-family: $PD;
     font-size: 14px;
     font-weight: 400;
@@ -29,7 +32,7 @@
 .expertise-underline {
     width: 50px;
     height: 2px;
-    background-color: rgb(65, 61, 75);
+    background-color: $expertise1;
     opacity: 0.3;
 }
 .expertise-items {
@@ -60,7 +63,7 @@
     }
 }
 .expertise-item__title {
-    color: rgb(65, 61, 75);
+    color: $expertise1;
     font-family: $R;
     font-size: 14px;
     font-weight: 900;
@@ -71,7 +74,7 @@
 }
 .expertise-item__descr {
     opacity: 0.75;
-    color: rgb(51, 51, 51);
+    color: $expertise3;
     font-family: $R;
     font-size: 14px;
     font-weight: 300;
