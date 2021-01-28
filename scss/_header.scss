@@ -4,9 +4,9 @@
     background-color: rgb(49, 22, 85);
 }
 .header {
-    height: 670px;
     max-width: 1800px;
     margin: 0 auto;
+    height: 670px;
     background: url('../img/header/header-img.png') no-repeat;
     block-size: cover;
     background-position: 50%;
@@ -20,8 +20,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 35px;
-    padding-bottom: 30px;
+    padding: 35px 0px;
+
 }
 .header__logo {
     display: flex;
@@ -35,7 +35,7 @@
 }
 .logo-text {
     color:  rgb(16, 161, 164);
-    font-family: 'Roboto', sans-serif;
+    font-family: $R;
     font-size: 30px;
     font-weight: 100;
     margin-left: 11px;
@@ -52,10 +52,9 @@
     color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    margin-right: 15px;
-    margin-left: 15px;
     font-size: 13px;
     text-transform: uppercase;
+    margin: 0px 15px;
 }
 .header__navlink:hover{
     color: rgb(0, 224, 208);
@@ -67,50 +66,42 @@
 }
 .header__title {
     color: rgb(255, 255, 255);
-    font-family: "Playfair Display", sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 900;
     font-size: 32px;
     letter-spacing: 0.32px;
-    margin-top: 130px;
-    margin-bottom: 30px;
+    margin: 130px 0 30px 0;
     @media screen and (max-width: 675px) {
         margin-top: 80px;
     } 
     @media screen and (max-width: 550px) {
         line-height: 1.2;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 40px;
+        margin: 40px 10px 30px 10px;
     }     
 }
-.header__separator {}
 .header__descr {
     color: rgb(255, 255, 255);
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
     letter-spacing: 0.7px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 20px 15px 20px 15px;
     @media screen and (max-width: 550px) {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 20px 10px 20px 10px;
     }  
 }
 .header__text-btn {
     color: rgb(13, 226, 210);
-    font-family: "Hammersmith One", sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    padding: 13px 15px 10px 15px;
     text-transform: uppercase;
     border: 1px solid rgb(0, 224, 208);
     border-radius: 6px;
     background-color: rgba(255, 255, 255, 0);
     margin-top: 50px;
+    padding: 13px 15px 10px 15px;
     @media screen and (max-width: 675px) {
         font-size: 20px;
         padding: 18px 55px 14px 55px;

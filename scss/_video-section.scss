@@ -1,10 +1,11 @@
-.story-video .main-container{
-    padding-left: 0;padding-right: 0;
+.video-section .main-container{
+    padding-left: 0;
+    padding-right: 0;
 }
-.story-video {
+.video-section {
+    margin: 0 auto;
     max-width: 1600px;
     min-height: 315px;
-    margin: 0 auto;
     background-color: rgb(49, 22, 85);
     @media screen and (max-width: 560px) {
         min-height: 0;

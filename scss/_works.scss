@@ -1,6 +1,6 @@
-.our-works {
-    max-width: 1600px;
+.works {
     margin: auto;
+    max-width: 1600px;
     min-height: 737px;
 }
 .works-header {
@@ -8,25 +8,18 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 70px 0;
     @media screen and (max-width: 1064px) {
-        padding-left: 80px;
-        padding-right: 80px;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding: 40px 80px 40px 80px;
     }
     @media screen and (max-width: 798px) {
         flex-direction: column;
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding: 30px 0px;
     }
 }
 .works-header__title {
     color: rgb(65, 61, 75);
-    font-family: "Playfair Display";
+    font-family: 'Playfair Display', serif;
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
@@ -37,15 +30,15 @@
 }
 .works-header__link {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
+    justify-content: space-between;
 }
 .works-header__link:hover{
     color: rgb(66, 50, 117);
 }
 .works-header__text {
-    color: rgb(66, 50, 117);
-    font-family: "Roboto", sans-serif;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.7px;
@@ -53,6 +46,9 @@
 }
 .works-header__text:hover{
     color: rgb(66, 50, 117);
+}
+.works-header__arrow{
+    color: rgb(0, 0, 0);
 }
 .works-header__arrow:hover{
     color: rgb(66, 50, 117);
@@ -73,15 +69,14 @@
     margin: 0px;
 }
 .works-footer {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 70px 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .works-footer__btn {
     color: rgb(139, 139, 139);
-    font-family: "Hammersmith One", sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
     font-size: 16px;
     font-weight: 500;
     padding: 13px 55px 10px 55px;
@@ -92,8 +87,7 @@
     @media screen and (max-width: 947px) {
         font-size: 20px;
         padding: 18px 55px 14px 55px;
-        margin-top: 10px;
-        margin-bottom: 5px;
+        margin: 10px 0 5px 0;
     }
 }
 .works-footer__btn:hover{
