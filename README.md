@@ -18,14 +18,20 @@ Also used some [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript) fun
 >
 - `/img/`  - project folder with images whose uses at the site.
 >
+- `/scss/_fonts.scss`  - include fonts.
+- `/scss/_variables.scss`  - SCSS variables.
+- `/scss/_normalize.scss`  - reset styles.
+- `/scss/_main-container.scss`  - section with common container.
+>
 - `/scss/_header.scss`  - section header.
-- `/scss/_our-story.scss`  - section company story.
-- `/scss/_story-video.scss` - our video from YouTube.
+- `/scss/_hamburger.scss`  - hamburger menu.
+- `/scss/_story.scss`  - section company story.
+- `/scss/_video-section.scss` - our video from YouTube.
 - `/scss/_expertise.scss` - what we do.
-- `/scss/_our-team.scss`  - amazing team.
-- `/scss/_our-works.scss`  - portfolio.
+- `/scss/_team.scss`  - amazing team.
+- `/scss/_works.scss`  - portfolio.
 - `/scss/_feedbacks.scss`  - our guests.
-- `/scss/_prefooter.scss`  - form and clients.
+- `/scss/_form.scss`  - form and clients.
 - `/scss/_footer.scss`  - footer section.
 - `/scss/styles.scss`  - main SCSS file that included other files.
 >
